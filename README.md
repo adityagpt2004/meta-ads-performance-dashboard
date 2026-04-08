@@ -4,6 +4,89 @@
 
 This project analyzes Meta (Facebook & Instagram) ad campaign performance to provide actionable insights for marketing optimization. The dashboard tracks the full funnel from impressions to purchases and helps identify opportunities to improve conversion rates.
 
+## 📂 Dataset Description
+
+The dataset used in this project simulates Meta (Facebook & Instagram) ad campaign performance and is structured into four main tables:
+
+---
+
+### 1. 📊 Ads Table (`ads.csv`)
+
+Contains information about each advertisement and its targeting details:
+
+* ad_id
+* campaign_id
+* platform (Facebook / Instagram)
+* ad_type (Image, Video, Carousel, Stories)
+* target_gender
+* target_age_group
+* target_interests
+
+---
+
+### 2. 📈 Ad Events Table (`ad_events.csv`)
+
+Captures user interactions with ads across the funnel:
+
+* event_id
+* ad_id
+* user_id
+* timestamp
+* day_of_week
+* time_of_day (Morning, Afternoon, Evening, Night)
+* event_type (Impression, Click, Share, Comment, Purchase)
+
+---
+
+### 3. 📢 Campaigns Table (`campaigns.csv`)
+
+Stores campaign-level details and budget allocation:
+
+* campaign_id
+* campaign_name
+* start_date
+* end_date
+* duration
+* total_budget
+
+---
+
+### 4. 👥 Users Table (`users.csv`)
+
+Provides demographic and geographic information about users:
+
+* user_id
+* user_gender
+* user_age
+* age_group
+* country
+* location
+* interests
+
+---
+
+### 🔗 Data Relationships
+
+* `ad_id` links Ads and Ad Events tables
+* `campaign_id` links Ads and Campaigns tables
+* `user_id` links Users and Ad Events tables
+
+---
+
+### 📌 Data Modeling Purpose
+
+This structured data model enables:
+
+* End-to-end funnel analysis (Impressions → Clicks → Engagement → Purchases)
+* Audience segmentation (age, gender, interests)
+* Campaign and budget performance evaluation
+* Time-based trend analysis (daily, weekly, hourly)
+
+---
+
+This design ensures efficient querying and supports advanced analytics using Power BI.
+
+
 ## 🎯 Business Objective
 
 * Track campaign performance across Facebook and Instagram
@@ -74,10 +157,10 @@ This project analyzes Meta (Facebook & Instagram) ad campaign performance to pro
 ## 📸 Dashboard Screenshots
 
 ### Facebook Dashboard
-<img src="Facebook-Dashboard.png" width="800" style="border:5px solid #ddd; border-radius:10px;"/>
+<img src="Screenshots/Facebook-Dashboard.png" width="800" style="border:5px solid #ddd; border-radius:10px;"/>
 
 ### Instagram Dashboard
-<img src="Instagram-Dashboard.png" width="800" style="border:5px solid #ddd; border-radius:10px;"/>
+<img src="Screenshots/Instagram-Dashboard.png" width="800" style="border:5px solid #ddd; border-radius:10px;"/>
 
 ## 🎥 Dashboard Demo Video
 
