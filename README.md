@@ -66,7 +66,7 @@ This project analyzes Meta (Facebook & Instagram) ad campaign performance to pro
 ## 📸 Dashboard Preview
 
 ### Facebook Dashboard
-![Facebook Dashboard](Facebook-Dashboard.png)
+<img src="Facebook-Dashboard.png" width="800" style="border-radius:12px; box-shadow:0px 4px 12px rgba(0,0,0,0.2);"/>
 
 ### Instagram Dashboard
 ![Instagram Dashboard](Instagram-Dashboard.png)
