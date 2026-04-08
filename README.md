@@ -62,8 +62,16 @@ This project analyzes Meta (Facebook & Instagram) ad campaign performance to pro
 * Power BI
 * DAX
 * Data Modeling
+  
+## 🔄 Project Workflow
 
-## 📸 Dashboard Preview
+1. Data Collection from Meta Ads dataset    
+2. Data Modeling in Power BI  
+3. KPI Calculation using DAX  
+4. Dashboard Design & Visualization  
+5. Insight Generation & Business Recommendations  
+
+## 📸 Dashboard Screenshots
 
 ### Facebook Dashboard
 <img src="Facebook-Dashboard.png" width="800" style="border:5px solid #ddd; border-radius:10px;"/>
@@ -73,4 +81,13 @@ This project analyzes Meta (Facebook & Instagram) ad campaign performance to pro
 
 ## 🎥 Dashboard Demo Video
 
-[Watch Demo Video](https://drive.google.com/file/d/1WDwp6Pn6LD7PtHJHXICZnjKgg0foAKtp/view?usp=sharing)
+Click below to watch a walkthrough of the dashboard:
+
+👉 [Watch Demo Video](https://drive.google.com/file/d/1WDwp6Pn6LD7PtHJHXICZnjKgg0foAKtp/view?usp=sharing)
+
+## 📈 Business Impact
+
+- Identifies high-performing ad formats to optimize budget allocation  
+- Highlights audience segments with maximum engagement  
+- Detects funnel drop-offs to improve conversion strategies  
+- Supports data-driven marketing decisions  
